@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "#ffffff" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : "YCL"
-  avatar           : "/assets/images/logo-256.png"
+  avatar           : "/assets/images/logo256.png"
   bio              : "Multimodal Systems | Manufacturing Intelligence"
   location         : "Suwon, South Korea"
   email            :

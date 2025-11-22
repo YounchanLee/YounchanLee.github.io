@@ -1,0 +1,237 @@
+/* Custom styles for Memento Project */
+
+/* Import cute Korean fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Jua&family=Gamja+Flower&display=swap');
+
+/* Orange accent color theme */
+:root {
+  --accent-color: #f39c12;
+  --accent-hover: #e67e22;
+  --text-color: #333;
+  --meta-color: #7f8c8d;
+  --bg-color: #ffffff;
+}
+
+/* White background for entire site */
+body {
+  background-color: var(--bg-color) !important;
+}
+
+.page {
+  background-color: var(--bg-color) !important;
+}
+
+.masthead {
+  background-color: var(--bg-color) !important;
+}
+
+/* Link colors */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Post titles with cute font */
+.archive__item-title {
+  margin-top: 0.5em;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+.archive__item-title a {
+  color: var(--accent-color);
+}
+
+.archive__item-title a:hover {
+  color: var(--accent-hover);
+}
+
+/* Page titles with cute font */
+.page__title {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+/* Main site title */
+.site-title {
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+  font-size: 1.3em;
+}
+
+/* Masthead */
+.masthead__inner-wrap {
+  padding: 1em 1em;
+}
+
+.masthead__menu-item {
+  font-size: 1em;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+}
+
+.greedy-nav a {
+  color: #333;
+}
+
+.greedy-nav a:hover {
+  color: var(--accent-color);
+}
+
+/* Sidebar */
+.sidebar {
+  font-size: 0.95em;
+  background-color: var(--bg-color) !important;
+}
+
+.nav__title {
+  font-size: 1.1em;
+  font-weight: 600;
+  background: var(--accent-color);
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+.nav__sub-title {
+  font-weight: 600;
+  margin-top: 1em;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Post meta information */
+.page__meta {
+  color: var(--meta-color);
+  font-size: 0.85em;
+}
+
+.page__date {
+  color: var(--meta-color);
+}
+
+/* Code blocks */
+.highlight {
+  border-radius: 4px;
+  background-color: #f8f9fa !important;
+}
+
+code.language-plaintext {
+  background: #f5f5f5;
+  color: #d63384;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Table of contents */
+.toc {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.toc__menu a {
+  color: var(--text-color);
+}
+
+.toc__menu a:hover {
+  color: var(--accent-color);
+}
+
+/* Author profile */
+.author__urls-wrapper button {
+  background: var(--accent-color);
+}
+
+.author__urls-wrapper button:hover {
+  background: var(--accent-hover);
+}
+
+/* Buttons */
+.btn--primary {
+  background-color: var(--accent-color);
+}
+
+.btn--primary:hover {
+  background-color: var(--accent-hover);
+}
+
+/* Archive subtitle with cute font */
+.archive__subtitle {
+  border-bottom: 2px solid var(--accent-color);
+  font-weight: 600;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+/* Typography improvements - cute Korean font */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  background-color: var(--bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+/* Post content */
+.page__content {
+  font-size: 1.05em;
+  background-color: var(--bg-color);
+}
+
+.page__content h2 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eee;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+.page__content h3 {
+  margin-top: 1.5em;
+  color: #555;
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+/* Recent posts section styling */
+.archive__item-excerpt {
+  margin-top: 0.5em;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Home intro section */
+.home-intro h1 {
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+}
+
+.home-intro .subtitle {
+  font-family: 'Gamja Flower', 'Noto Sans KR', cursive;
+  font-size: 1.3em;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #f8f9fa !important;
+}
+
+/* Content wrapper */
+#main {
+  background-color: var(--bg-color);
+}
+
+.archive {
+  background-color: var(--bg-color);
+}
+
+/* Category intro boxes */
+.category-intro {
+  background: #fef5e7 !important;
+  border-left: 4px solid var(--accent-color);
+}
