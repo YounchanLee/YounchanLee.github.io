@@ -19,7 +19,7 @@ url                      : "https://YounchanLee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "YounchanLee/YounchanLee.github.io"
 teaser                   : 
-logo                     : "/assets/images/logo.png" # 중요: logo.png 파일이 assets/images 폴더에 있어야 합니다.
+logo                     : 
 masthead_title           : "Memento Project"
 breadcrumbs              : true
 words_per_minute         : 200
