@@ -24,3 +24,10 @@ search: false
 body, h1, h2, h3, h4, h5, h6, .archive__item-title, .page__title, .site-title, .nav__title {
   font-family: 'Jua', 'Noto Sans KR', sans-serif !important;
 }
+
+/* 로고 사이즈 강제 조정 */
+.sidebar__brand-logo img, 
+.masthead__logo img {
+  max-width: 150px; /* 원하는 너비로 조절 */
+  height: auto;
+}
