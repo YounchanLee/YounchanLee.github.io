@@ -26,7 +26,7 @@ url                      : "https://YounchanLee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "YounchanLee/YounchanLee.github.io"
 teaser                   : 
-logo                     : 
+logo                     : "/assets/images/logo256.png"
 masthead_title           : "Memento Project"
 breadcrumbs              : true
 words_per_minute         : 200
