@@ -81,19 +81,22 @@ analytics:
 author:
   name             : "YCL"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "AI/ML Engineer | Multimodal Systems | Manufacturing Intelligence"
+  bio              : "Signal preprocessing | Multimodal Systems | Manufacturing Intelligence"
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.email@example.com"
+      url: "mailto:flyjdi@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/YounchanLee"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/younchan_lee94"
 
 # Site Footer
 footer:
@@ -103,7 +106,10 @@ footer:
       url: "https://github.com/YounchanLee"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/younchan_lee94"
 
 
 # Reading Files
