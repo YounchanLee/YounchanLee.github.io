@@ -25,8 +25,8 @@ description              : "Engineer's Technical Blog - Research Reviews, Projec
 url                      : "https://YounchanLee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "YounchanLee/YounchanLee.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo256.png"
+teaser                   : "/assets/images/logo256.png"
+logo                     : 
 masthead_title           : "Memento Project"
 breadcrumbs              : true
 words_per_minute         : 200
