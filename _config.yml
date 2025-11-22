@@ -26,7 +26,7 @@ url                      : "https://YounchanLee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "YounchanLee/YounchanLee.github.io"
 teaser                   : 
-logo                     : "/assets/images/logo256.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : "Memento Project"
 breadcrumbs              : true
 words_per_minute         : 200
@@ -323,7 +323,3 @@ defaults:
       toc: true
       toc_sticky: true
       classes: wide
-
-# Custom CSS
-head_scripts:
-  - /assets/css/custom.css

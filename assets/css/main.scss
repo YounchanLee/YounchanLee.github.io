@@ -7,3 +7,20 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Import cute Korean fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Jua&family=Gamja+Flower&display=swap');
+
+/* Orange accent color theme */
+:root {
+  --accent-color: #f39c12;
+  --accent-hover: #e67e22;
+  --text-color: #333;
+  --meta-color: #7f8c8d;
+  --bg-color: #ffffff;
+}
+
+/* 폰트 강제 적용 */
+body, h1, h2, h3, h4, h5, h6, .archive__item-title, .page__title, .site-title, .nav__title {
+  font-family: 'Jua', 'Noto Sans KR', sans-serif !important;
+}
