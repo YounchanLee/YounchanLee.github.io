@@ -8,10 +8,14 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Import cute Korean fonts */
+/* ------------------------------------------------------- */
+/* 아래부터는 커스텀 스타일 (Custom CSS) */
+/* ------------------------------------------------------- */
+
+/* 1. 폰트 임포트 (Korean Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Jua&family=Gamja+Flower&display=swap');
 
-/* Orange accent color theme */
+/* 2. 기본 테마 색상 오버라이드 (Orange Theme) */
 :root {
   --accent-color: #f39c12;
   --accent-hover: #e67e22;
@@ -20,15 +24,54 @@ search: false
   --bg-color: #ffffff;
 }
 
-/* 폰트 강제 적용 */
-body, h1, h2, h3, h4, h5, h6, .archive__item-title, .page__title, .site-title, .nav__title {
+/* 3. 배경색 강제 화이트 */
+body, .page, .masthead, .sidebar, .page__content, #main, .archive {
+  background-color: var(--bg-color) !important;
+}
+
+/* 4. 링크 색상 변경 */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+.greedy-nav a:hover {
+  color: var(--accent-color);
+}
+
+/* 5. 폰트 적용 (Cute Fonts) */
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* 제목용 폰트 (Jua) */
+h1, h2, h3, h4, h5, h6, 
+.archive__item-title, 
+.page__title, 
+.site-title, 
+.nav__title, 
+.archive__subtitle {
   font-family: 'Jua', 'Noto Sans KR', sans-serif !important;
 }
 
-/* 로고 사이즈 강제 조정 */
-/* 로고 사이즈 강제 조정 */
+/* 6. 사이드바/상단 로고 크기 제한 (너무 큰 이미지 방지) */
 .sidebar__brand-logo img, 
 .masthead__logo img {
-  max-width: 150px; /* 원하는 너비로 조절 */
+  max-width: 200px; /* 원하는 크기로 조절 가능 */
   height: auto;
+}
+
+/* 7. 기타 스타일 */
+.nav__title {
+  background: var(--accent-color);
+  color: #fff;
+}
+.btn--primary {
+  background-color: var(--accent-color) !important;
+}
+.btn--primary:hover {
+  background-color: var(--accent-hover) !important;
 }
